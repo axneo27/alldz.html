@@ -1,0 +1,148 @@
+.main{
+    font-family: monospace;
+    color: aliceblue;
+}
+
+.header{
+    background-color: rgb(179, 13, 82);
+    height: 67px;
+    text-align: left;
+    position: relative;
+}
+
+.menu{
+    margin-top:15px;
+    background-color: rgb(138, 13, 65);
+    height: 57px;
+    text-align: left;
+    position: relative;
+}
+
+.centerzone{
+    margin-top: 15px;
+    height:400px;
+    position:relative;
+    display: flex;
+}
+
+.aside_o{
+    background-color: rgb(206, 97, 143);
+    height: 100px;
+    width:300px;
+    position:relative;
+}
+
+.aside_t{
+    margin-top:115px;
+    background-color: rgb(206, 97, 143);
+    height: 200px;
+    width:300px;
+    position:absolute;
+}
+
+.maincontent{
+    background-color: rgb(206, 97, 143);
+    width:780px;
+    margin-left:15px;
+    position:relative;
+}
+
+.section_o{
+    background-color: rgb(231, 148, 183);
+    width:600px;
+    height: 120px;
+    position:absolute;
+    position:relative;
+    margin-top:80px;
+    margin-left:80px;
+}
+
+.section_t{
+    background-color: rgb(231, 148, 183);
+    width:600px;
+    height: 120px;
+    position:absolute;
+    margin-top:15px;
+    margin-left:80px;
+}
+
+.aside_r{
+    height:315px;
+    background-color: rgb(206, 97, 143);
+    margin-left: 15px;
+    width:155px;
+    position:relative;
+}
+
+.footer{
+    margin-top:15px;
+    background-color: rgb(138, 13, 65);
+    height: 57px;
+    text-align: left;
+}
+
+/* texts */
+
+.hedtext{
+    font-weight: 100;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.aside{
+    font-weight: 100;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.asi{
+    font-weight: 100;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.mainco_text{
+    font-weight: 100;
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.mainco_text2{
+    font-weight: 100;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.kapec{
+    writing-mode: vertical-lr;
+    position:absolute;
+    font-weight: 100;
+    top:40%;
+    left:40%;
+    transform: translate(-50%, -50%);
+    text-orientation: upright;
+}
+
+.foot{
+    font-weight: 100;
+    margin: 0;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 100px;
+    transform: translate(-50%, -50%);
+}

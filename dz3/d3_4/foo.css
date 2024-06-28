@@ -1,0 +1,86 @@
+body{
+    padding-top: 30px;
+    width:60%;
+    font-family: monospace;
+    margin: auto;
+    color:aliceblue;
+}
+
+p{
+    text-align: center;
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+.main{
+    background-color: rgb(54, 99, 176);
+    height:200px;
+    line-height: 0.4;
+    position:relative;
+}
+
+.m{
+    display: flex;
+}
+
+.fir{
+    padding-top: 25px;
+    padding-left: 100px;
+}
+
+.sec{
+    padding-top: 25px;
+    margin-left: 150px;
+}
+
+h4{
+    font-weight: 100;
+}
+
+h4:hover{
+    text-decoration: underline;
+}
+
+.ime{
+    display: flex;
+    padding-top: 50px;
+    margin-left:70px ;
+}
+
+.fac, .inst, .you{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    margin:10px;
+}
+.fac {
+    background-image: url('imges/greyface.png');
+}
+
+.fac:hover {
+    background-image: url('imges/face.png');
+}
+
+.inst {
+    background-image: url('imges/greyinst.png');
+}
+
+.inst:hover {
+    background-image: url('imges/inst.png');
+}
+
+.you {
+    background-image: url('imges/greyyou.png');
+}
+
+.you:hover {
+    background-image: url('imges/you.svg');
+}
+
+hr{
+    width: 90%;
+}
+
+img{
+    height:40px;
+}
