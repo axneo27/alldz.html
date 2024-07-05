@@ -1,0 +1,61 @@
+body{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
+    font-family: monospace;
+    margin-top: 100px;
+    width:600px;
+    height:200px;
+    display:flex;
+}
+
+.b1, .b2{
+    background-color: blueviolet;
+    width: 298px;
+    height:198px;
+    border: 2px solid purple;
+}
+
+#text{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+@keyframes rdd{
+    from {transform: translateX(0px) rotateY(0deg);}
+    to {transform: translateX(-100px) rotateY(60deg);}
+}
+
+@keyframes ldd{
+    from {transform: translateX(0px) rotateY(0deg);}
+    to {transform: translateX(100px) rotateY(-60deg);}
+}
+
+.main:hover{
+    perspective: 500px;
+}
+
+.main:hover .b1{
+    animation: rdd 2s;
+    animation-fill-mode: forwards;
+}
+
+.main:hover .b2{
+    animation: ldd 2s;
+    animation-fill-mode: forwards;
+}
+
+.main:hover #text{
+    display: flex;
+    transform: translateX(300px);
+    align-self: center;
+    animation-fill-mode: forwards;
+}
