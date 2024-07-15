@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    display: flex;
+}
+
+.main{
+    font-family: monospace;
+    font-size: small;
+    height:100vh;
+    background-color: rgb(138, 137, 137);
+    width: 70px;
+    margin:0px;
+    position:fixed;
+    padding-top: 20px;
+    transition: 1s ease;
+}
+
+.block{
+    background-color: rgb(138, 137, 137);
+    height: 70px;
+    width:70px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 1s ease;
+}
+
+img{
+    height:20px;
+    margin-top: 15px;
+    margin-left:20px
+}
+
+h5{
+    color: aliceblue;
+    font-weight: 100;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size:110%;
+    position:absolute;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+h4{
+    color: aliceblue;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size:110%;
+}
+
+.set{
+    transform: rotate(90deg);
+}
+
+@keyframes fgh{
+    from {background-color: rgb(138, 137, 137);}
+    to {background-color: rgb(106, 105, 105);}
+}
+
+.block:hover{
+    animation: fgh 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.main:hover{
+    width:170px;
+}
+
+.main:hover .block{
+    width:170px;
+}
+
+.main:hover h5{
+    opacity: 1;
+}
+
+.text{
+    margin-left: 140px;
+    margin-right: 100px;
+    font-size: large;
+}

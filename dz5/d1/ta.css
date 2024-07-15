@@ -1,0 +1,43 @@
+body{
+    justify-items: center;
+    font-family: monospace;
+    width:550px;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    height:380px;
+    margin-top:20px;
+    table-layout:fixed;
+
+}
+
+td{
+    text-align: center;
+    margin:6px;
+}
+
+tr:nth-child(2n){
+    background-color: rgba(216, 211, 211, 0.63);
+}
+th{
+    background-color: rgb(128, 215, 230);
+    height: 40px;
+}
+
+thead{
+    width:100%;
+    position:sticky;
+    top:0px;
+}
+
+tr th{
+    position:sticky;
+    left:0px;
+}
+
+.main{
+    width:550px;
+    height:400px;
+}

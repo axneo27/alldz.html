@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    background-color: rgb(222, 225, 228);
+}
+
+.line1{
+    border: 2px solid rgb(191, 46, 46);
+}
+
+.line2{
+    border: 2px solid rgb(191, 138, 46);
+}
+
+.line3{
+    border: 2px solid rgb(46, 131, 191);
+}
+
+.line4{
+    border: 2px solid rgb(46, 191, 90);
+}
+
+.plan{
+    width:200px;
+    height:310px;
+    border-radius: 15px;
+    margin:10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px rgb(77, 76, 76);
+    transition: ease 1s;
+}
+
+.container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+h3, h1, h5{
+    font-family: monospace;
+}
+
+h5{
+    font-size: 90%;
+    margin-bottom: -7px;
+}
+
+h3{
+    font-size: 100%;
+    margin-top: 16px;
+}
+
+h1{
+    font-size: 240%;
+    margin-top: 13px;
+}
+
+.per{
+    color:rgb(161, 164, 167);
+    margin-top: -18px;
+}
+
+.buy{
+    color:white;
+    font-weight: 100;
+    margin: auto;
+    padding-top: 12.5%;
+}
+
+.knop1, .knop2, .knop3, .knop4{
+    border-radius: 7px;
+    width: 90px;
+    margin:auto;
+    margin-top: 30px;
+    height:40px;
+}
+
+.knop1{
+    background-color: rgb(191, 46, 46);
+}
+
+.knop2{
+    background-color: rgb(191, 138, 46);
+}
+
+.knop3{
+    background-color:  rgb(46, 131, 191);
+}
+
+.knop4{
+    background-color: rgb(46, 191, 90);
+}
+
+.plan:hover{
+    z-index: 5;
+    margin-top: 32px;
+    scale:1.2;
+}
