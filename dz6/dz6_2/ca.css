@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(221, 223, 225);
+    position:relative;
+}
+
+h4{
+    color:white;
+    font-weight: 300;
+    margin-left: 24%;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#teto{
+    margin-left: 25px;
+    margin-top: 4px;
+}
+
+.container{
+    width:80dvw;
+    margin-left:auto;
+    margin-right: auto;
+    display:flex;
+}
+
+p{
+    font: 12px;
+}
+
+img{
+    width:300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 5;
+}
+.im1, .im2{
+    background-color: rgb(36, 76, 111);
+    border-radius: 10px;
+    width:300px;
+    height: 250px;
+    margin-left: 12.5%;
+    margin-top: 20px;
+}
+
+
+.im2{
+    height: 270px;
+}
+
+.asd{
+    margin-top: -360px;
+}
+.text{
+    width:600px;
+    margin-left: 30px;
+}
+
+.imges{
+    width:39%;
+    margin-left: 650px;
+    margin-top: -180px;
+}
+
+h2{
+    margin-top:30px;
+}
+
+@media (max-width: 800px) {
+    .container{
+        flex: none;
+        display: block;
+    }
+    body{
+        flex: none;
+        display: block;
+    }
+    .imges{
+        display: flex;
+        margin:30px;
+        right: 60px;
+        position:relative;
+    }
+    .asd{margin: 0;}
+}
+
+@media (max-width: 600px) {
+    .container{
+        margin-left: 8px;
+        flex: none;
+        display: block;
+    }
+    body{
+        flex: none;
+        display: block;
+    }
+    .text{
+        width:90dvw;
+    }
+    .imges{
+        margin:30px;
+        right: 60px;
+        width:100dvw;
+        display: block;
+    }
+    .im1, .im2{
+        width:90dvw;
+        height: 380px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+
+    h4{
+        margin-top: 6px;
+        margin-left: 55%;
+    }
+
+    #teto{
+        margin-left:3%;
+    }
+
+    img{
+        width:100%;
+    }
+    
+    .im2{
+        height: 400px;
+    }
+    .asd{margin: 0;}
+}
