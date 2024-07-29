@@ -1,0 +1,163 @@
+body{
+    display: flex;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(211, 210, 210);
+}
+
+.sideblock{
+    width:210px;
+    height:100vh;
+    background-color: rgb(58, 55, 55);
+    color: white;
+    position: fixed;
+}
+
+.b{
+    border-top: 1px solid rgb(36, 35, 35);
+    border-bottom: 1px solid rgb(36, 35, 35);
+    height:70px;
+    display: grid;
+	align-items: center;
+}
+
+h3{
+    font-weight: 200;
+    margin-left:10%;
+    font-size: 15px;
+}
+
+.toppp{
+    display: flex;
+}
+
+.traffic, .loads{
+    background-color: rgb(245,245,245);
+    width:47%;
+}
+
+.loads{
+    margin-left: 20px;
+}
+
+#hex{
+    width:50%;
+    position:relative;
+    left: 25%;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+#line, #bar{
+    width: 80%;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+#in{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.content{
+    margin-left:245px;
+}
+
+.recent{
+    background-color: white;
+    width:993px;
+    margin-top: 20px;
+    padding-top: 17px;
+    padding-bottom: 30px;
+}
+
+table{
+    margin-left: 40px;
+    border-collapse: collapse;
+    width:93%;
+}
+
+.ggg tr{
+    border: solid grey;
+    border-width: 1px 0;
+}
+
+.ggg :nth-child(1){
+    border:none;
+}
+
+th, td{
+    height: 30px;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    body{
+        display: block;
+    }
+    .sideblock{
+        margin-top: -20px;
+        width:100%;
+        height:fit-content;
+        background-color: rgb(58, 55, 55);
+        color: white;
+        position:sticky;
+        top:0;
+        z-index: 5;
+    }
+
+    .toppp{
+        display: block;
+    }
+
+    #hex{
+        width:30px;
+        left:50%;
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+    .b{
+        height:30px;
+    }
+    h3{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    #in{
+        font-size: 15px;
+        padding-top: 40px;
+    }
+
+    .traffic{
+        margin-top: 25px;
+    }
+
+    .loads, .traffic, .recent{
+        width: 90dvw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2{
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+
+    .content{
+        margin: 20px;
+    }
+
+    table{
+        width: 80dvw;
+    }
+
+    th, td{
+        height: 60px;
+    }
+
+    tr :nth-child(2){
+        padding-left: 30px;
+    }
+
+}
