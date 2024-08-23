@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(64, 194, 194);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+h3{
+    color:white;
+    font-weight: 550;
+}
+
+h4{
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.header{
+    background-color: rgb(33, 184, 184);
+    height:70px;
+    width: 100%;
+    align-content:center;
+    padding-left:50px;
+    position:fixed;
+}
+
+.blocks{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.block{
+    background-color: rgb(231, 227, 227);
+    min-width:300px;
+    height: 500px;
+    border-radius: 8px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.rects{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 260px;
+}
+
+.rec{
+    width: 260px;
+    background-color: whitesmoke;
+    min-height: 100px;
+
+}
+
+p{
+    margin-left: 20px;
+    max-width: 240px;
+}
+
+img{
+    height:15px;
+    width:15px;
+}
+
+.symbols{
+    display: flex;
+    justify-content: flex-start;
+    margin:15px;
+    gap: 15px;
+    margin-left: 18px;
+}
+
+#hor{
+    rotate: 90deg;
+}
+
+.sym{
+    display: flex;
+    gap:4px;
+}
+
+#mes{
+    transform: scaleX(-1);
+}
+
+#hum{
+    height:30px;
+    width: 30px;
+}
+
+.human_icon{
+    margin-left: auto;
+    margin-top: -10px;
+}
