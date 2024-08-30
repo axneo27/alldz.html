@@ -1,0 +1,263 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #030b18 , white);
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height:100%;
+    margin-top: 40px;
+    margin-top:-10px;
+}
+
+.inner_c{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    height:100%;
+    background-image: linear-gradient(to bottom, #030b18 0%, white 10%);
+    z-index: 10;
+    margin-top: 10px;
+    display: flex;
+}
+
+.header{
+    background-color: #030b18;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    position: fixed;
+    z-index: 20;
+    box-shadow: 0px 10px 43px -8px rgba(0,0,0,0.75);
+}
+
+.linkss{
+    margin-left: 100px;
+    display: flex;
+    gap:20px;
+    color:white;
+}
+
+#lin{
+    color: white;
+}
+
+.dum{
+    height:80px;
+    background-color: #030b18;
+}
+
+.header h4{
+    margin-left: 100px;
+    font-weight: 400;
+}
+
+.social{
+    display: flex;
+    gap:15px;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.social img{
+    height:30px;
+}
+
+#head_p{
+    height: 60px;
+    margin-left: 100px;
+}
+
+.block, .articles{
+    margin:auto;
+    gap: 20px;
+}
+
+.block{
+    padding: 15px;
+    margin-bottom: 10px;
+    height: 90%;
+    width:100%;
+    display: flex;
+    overflow-x: auto;
+}
+
+.article, .techA, .spaceflightA, .science_astronomyA{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width:100%;
+    height: 300px;
+    min-width:250px;
+    padding: 15px;
+    margin-bottom: 10px;
+    overflow-y: hidden;
+    max-width: 300px;
+
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 100%);
+    mask-image: linear-gradient(to top, transparent 4%, black 20%);
+}
+
+.article.expanded, .techA.expanded, .spaceflightA.expanded, .science_astronomyA.expanded {
+    overflow-y: auto;
+    position: absolute;
+    min-width: none;
+    width:50%;
+    height:300px;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    z-index: 30;
+    background-color: white;
+    box-shadow: 6px -2px 48px 18px rgba(0,0,0,0.75);
+
+    -webkit-mask-image: none;
+    mask-image: none;
+    max-width: none;
+}
+
+.article p{
+    color: #030b18;
+}
+
+.article h3, .techA h3, .spaceflightA h3, .science_astronomyA h3{
+    margin-top: 5px;
+}
+
+#readmore{
+    background-color: #030b18;
+    margin:10px;
+    color: #030b18;
+    border: 2px solid  #030b18;
+    border-radius: 3px;
+    color: white;
+}
+
+#readmore:hover{
+    border-color: #5e84c1;
+}
+
+.articles{
+    margin-top: 60px;
+    width:65%;
+    margin-left: 20px;
+}
+
+.articles img{
+    width:100%;
+}
+
+.sidebar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #030b18;
+    height:fit-content;
+    gap:14px;
+}
+
+.dum2S{
+    height:200px;
+    background: linear-gradient(to bottom, #030b18 50% , white);
+    width:100%;
+    margin-top: 0px;
+}
+.sideall{
+    display: block;
+    width: 25%;
+    margin:20px;
+    margin-top: 60px;
+}
+
+.sidebar img{
+    width:100%;
+}
+
+.sidebar h3, h5, p{
+    margin-left:auto;
+    margin-right: auto;
+    color:white;
+}
+
+.sidebar h5, p{
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.sidebar p{
+    font-size: xx-small;
+    color: rgb(162, 160, 160);
+}
+
+#b_TECH, #b_SCIENCE, #b_SPACEFLIGHT{
+    text-align: center;
+}
+
+.footer{
+    width:100%;
+    height:100px;
+    background-color: #030b18;
+    color: white;
+    text-align: center;
+}
+
+.footer h4{
+    font-weight: 100;
+}
+
+.article h5, .techA h5, .spaceflightA h5, .science_astronomyA h5{
+    color:#030b18;
+    margin:0;
+    margin-left: 20px;
+}
+
+#sort_oldest, #sort_latest, #Badd_article{
+    background-color: #030b18;
+    margin:10px;
+    color: #030b18;
+    border: 2px solid  #030b18;
+    border-radius: 3px;
+    color: white;
+}
+
+#sort_oldest:hover, #sort_latest:hover, #Badd_article:hover{
+    border-color: #5e84c1;
+}
+
+.sort{
+    margin-left:32%;
+}
+
+#Badd_article{
+    display: flex;
+    align-self: center;
+}
+
+#article_text_tech, #article_text_spaceflight,
+#article_text_science_astronomy{
+    width:60%;
+}
+
+.addArticle{
+    margin-left: 8%;
+}
+
+.butts{
+    display: flex;
+    flex-direction: row;
+}
